@@ -1,0 +1,16 @@
+name: base_web_container
+description: "Simple containment for web projects"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: -beta.1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
